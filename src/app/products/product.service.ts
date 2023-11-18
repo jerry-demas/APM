@@ -31,7 +31,7 @@ export class ProductService {
         tap(data => console.log('All', JSON.stringify(data))),
         catchError(this.handleError)
       );
-    }
+    } 
 
 
   private handleError(err: HttpErrorResponse) {
